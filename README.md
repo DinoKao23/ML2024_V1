@@ -1,12 +1,15 @@
 # Email Spam Classifier using Naive Bayes
 ## Overview
-This email spam classifier is a machine learning program that uses the Naive Bayes algorithm to differentiate between spam and non-spam (ham) emails. It's designed to be a supervised learning solution, requiring training data to learn the characteristics of spam and ham emails.
+This email spam classifier is a machine learning program that uses the Naive Bayes algorithm to differentiate between spam and non-spam (ham) emails. It's designed to be a supervised learning solution, requiring training data to learn the characteristics of spam and ham emails. 
 
-## Requirements 
-Python 3.x
-NumPy
-scikit-learn
-NLTK
+## Requirements and imports
+Python 3.x: the version of python that is being used
+NumPy: fundamental packages for numerical computations in Python
+scikit-learn: open-source machine learning library for the Python programming language
+NLTK: used to import the stopwords set from the Natural Language Toolkit (NLTK)
+
+Counter class within the collections module: it is a subclass of dict and is used for counting hashable objects
+os: provides a way of using operating system dependent functionality
 
 ## Installation
 Ensure that Python 3.x is installed on your system. You can download and install it from Python's official website.

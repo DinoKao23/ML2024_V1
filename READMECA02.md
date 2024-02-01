@@ -37,16 +37,23 @@ Ensure that the train-mails and test-mails folders are in the same directory as 
 Run the cells in the notebook sequentially.
 
 ## Code Explanation
-The program consists of several key functions:
+The program consists of several key functions and variables:
 
 make_Dictionary(root_dir): This function creates a frequency dictionary of words from the training emails. It considers the most common words found in the emails. Essentially, this function is a part of text preprocessing, often used in natural language processing (NLP) tasks, where you want to create a list of the most frequent words in a dataset, filtering out non-alphabetic and too short words.
 
 extract_features(mail_dir): This function extracts features from the emails in the specified directory. It creates a feature matrix where each row corresponds to an email, and each column represents one of the most frequent words in the training set. It creates a feature vector based on the frequency of dictionary words in each file and assigning labels based on whether the file is spam or not. This function is typically part of a text classification workflow in machine learning.
 
+TRAIN_DIR, TEST_DIR, and T_DIR: used to define variables that store the paths to different directories containing email data for training and testing purposes
+
+Output: A feature matrix (train_features_matrix, test_features_matrix). Where each row represents an email, and each column corresponds to one of the words in the dictionary. The values in the matrix represent the frequency of these words in each email. A label vector (train_labels, test_labels), where each element is a label (like 0 or 1) indicating the classification of the email (e.g., spam or not spam).
+
 Accuracy Score:
-GaussianNB: coding the algorithm
+GaussianNB: coding the algorithm (specific type of Naive Bayes classifier that assumes features follow a normal distribution).
 - Within the model.fit: Put in the training feauture matrix (dictionary we have for each word) and training label to predict which email is spam and which email is not spam.
 - Predicting the trained model (Naive Bayes) data
+- Pred: after training, the model is used to predict the labels of the test data
+- accuracy_score: evaluates the performance of the model in terms of accuracy.
+- This is a common workflow in supervised machine learning tasks.
 
 ## Training and Prediction:
 

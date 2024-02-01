@@ -41,6 +41,10 @@ make_Dictionary(root_dir): This function creates a frequency dictionary of words
 
 extract_features(mail_dir): This function extracts features from the emails in the specified directory. It creates a feature matrix where each row corresponds to an email, and each column represents one of the most frequent words in the training set.
 
+Accuracy Score:
+GaussianNB: coding the algorithm
+put in the training feauture matrix ( dictionary we have for each word) and training label to predict which one is spam and which on is not
+
 ## Training and Prediction:
 
 The program trains a Gaussian Naive Bayes model using the GaussianNB() class from scikit-learn.

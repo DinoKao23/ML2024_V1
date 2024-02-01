@@ -1,6 +1,6 @@
 # Email Spam Classifier using Naive Bayes
 ## Overview
-This email spam classifier is a machine learning program that uses the Naive Bayes algorithm to differentiate between spam and non-spam (ham) emails. It's designed to be a supervised learning solution, requiring training data to learn the characteristics of spam and ham emails. 
+This email spam classifier is a machine learning program that uses the Naive Bayes algorithm to differentiate between spam and non-spam emails. It's designed to be a supervised learning solution, requiring training data to learn the characteristics of spam and ham emails. 
 
 ## Requirements and imports
 Python 3.x: the version of python that is being used.
@@ -53,7 +53,8 @@ The program trains a Gaussian Naive Bayes model using the GaussianNB() class fro
 The model is trained on the feature matrix and labels from the training data.
 It then predicts labels for the test data and calculates the accuracy of these predictions.
 Output
-The program outputs the accuracy of the model, which is the proportion of the test emails that were correctly classified as spam or ham.
+The program outputs the accuracy of the model, which is the proportion of the test emails that were correctly classified as spam or non-spam. 
+The program also outputs a confusion matrix, predicting the number of correctly and incorrectly categorized emails. 
 
 ## Customization
 You can modify the paths for the training and test data if your folder structure is different. Ensure the paths in the TRAIN_DIR and TEST_DIR variables are updated accordingly.

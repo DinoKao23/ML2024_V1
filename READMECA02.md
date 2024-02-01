@@ -39,9 +39,9 @@ Run the cells in the notebook sequentially.
 ## Code Explanation
 The program consists of several key functions:
 
-make_Dictionary(root_dir): This function creates a frequency dictionary of words from the training emails. It considers the most common words found in the emails.
+make_Dictionary(root_dir): This function creates a frequency dictionary of words from the training emails. It considers the most common words found in the emails. Essentially, this function is a part of text preprocessing, often used in natural language processing (NLP) tasks, where you want to create a list of the most frequent words in a dataset, filtering out non-alphabetic and too short words.
 
-extract_features(mail_dir): This function extracts features from the emails in the specified directory. It creates a feature matrix where each row corresponds to an email, and each column represents one of the most frequent words in the training set.
+extract_features(mail_dir): This function extracts features from the emails in the specified directory. It creates a feature matrix where each row corresponds to an email, and each column represents one of the most frequent words in the training set. It creates a feature vector based on the frequency of dictionary words in each file and assigning labels based on whether the file is spam or not. This function is typically part of a text classification workflow in machine learning.
 
 Accuracy Score:
 GaussianNB: coding the algorithm

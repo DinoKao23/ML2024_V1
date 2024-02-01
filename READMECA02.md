@@ -54,7 +54,7 @@ The model is trained on the feature matrix and labels from the training data.
 It then predicts labels for the test data and calculates the accuracy of these predictions.
 Output
 The program outputs the accuracy of the model, which is the proportion of the test emails that were correctly classified as spam or non-spam. 
-The program also outputs a confusion matrix, predicting the number of correctly and incorrectly categorized emails. 
+The program also outputs a confusion matrix, predicting the number of correctly and incorrectly categorized emails in the model
 
 ## Customization
 You can modify the paths for the training and test data if your folder structure is different. Ensure the paths in the TRAIN_DIR and TEST_DIR variables are updated accordingly.

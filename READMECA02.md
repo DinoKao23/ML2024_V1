@@ -45,7 +45,8 @@ extract_features(mail_dir): This function extracts features from the emails in t
 
 Accuracy Score:
 GaussianNB: coding the algorithm
-put in the training feauture matrix ( dictionary we have for each word) and training label to predict which one is spam and which on is not
+- Within the model.fit: Put in the training feauture matrix (dictionary we have for each word) and training label to predict which email is spam and which email is not spam.
+- Predicting the trained model (Naive Bayes) data
 
 ## Training and Prediction:
 

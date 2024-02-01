@@ -20,6 +20,8 @@ pip install numpy
 pip install scikit-learn
 pip install nltk
 
+(use "!" before the pip for jypter notebook enviornments)
+
 ## Data Folder Structure
 The program expects the data to be in a specific folder structure:
 

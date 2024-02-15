@@ -35,12 +35,10 @@ The project successfully identifies the best-performing decision tree model thro
 - Scikit-learn
 
 ## Authors
-- [Your Name]
+- Dino Kao, Kendall Prager, Kali Recker
 
 ## Acknowledgements
 - Thanks to the U.S. Census Bureau for providing the dataset.
-- This project is part of [Course/Program Name] under the guidance of [Instructor/Professor's Name].
+- This project is part of Introduction to Machine Learning under the guidance of Professor Brahma.
 
-## License
-This project is licensed under the [MIT License](LICENSE.txt).
 
